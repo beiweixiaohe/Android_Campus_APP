@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwen_Fragment"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:elevation="7dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/xin2"
+                android:elevation="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/xinwendantiaokuang1"
+                >
+                <TextView
+                    android:id="@+id/xinwenzi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="【新闻】软件工程学院开展红色观影活动"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/xinwen1"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C6C6C6"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/xinwendantiaokuang2"
+                >
+                <TextView
+                    android:id="@+id/xinwenzi_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="【新闻】软件工程学院学院VR作品亮相2\n   022VR世界VR产业暨元宇宙博览会"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/xinwen2"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C6C6C6"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/xinwendantiaokuang3"
+                >
+                <TextView
+                    android:id="@+id/xinwenzi_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="【新闻】软件工程学院举办少数民族交流\n  大会"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/xinwen3"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C6C6C6"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/xinwendantiaokuang4"
+                >
+                <TextView
+                    android:id="@+id/xinwenzi_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="【新闻】软件工程学院召开2023届研究生\n  本科生就业创业工作推进会"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/xinwen4"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C6C6C6"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/xinwendantiaokuang5"
+                >
+                <TextView
+                    android:id="@+id/xinwenzi_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="【新闻】我院举办第三十五届“一二·九”大\n 合唱"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/xinwen5"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C6C6C6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="想了解更多资讯，请自行搜索江西理工大学软件工程学院"
+                android:gravity="center"
+                android:textSize="30dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

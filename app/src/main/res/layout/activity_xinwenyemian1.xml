@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwenyemian1"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我院党委开展红色观影主题活动"
+                android:textSize="42dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="本网讯（文/鲁福临 图/黄鸣杰 审核/江南）为厚植爱国主义情怀，12月8日下午，软件工程学院党委组织教职工赴经开区越慕影城开展红色观影主题活动下午3时，大家抵达影院，一同观看了电影《万里归途》。该影片以2011年利比亚撤侨事件为背景，讲述了几名外交官不顾自己的生命安危，掩护我国公民撤离当时战火纷飞的努比亚的故事。在主人公宗大伟、成朗等人的不懈努力下，数百位身处在异国他乡的中国公民得以回到祖国的怀抱，这不仅体现了中国政府对于保护中国公民的决心，还展现出了中国保护人民的生命财产安全的能力，中国的国力日益强盛！ 观影过程中，大家被影片中外交官不畏艰险、视死如归的画面所震撼。在看到中国公民经过重重困难最终回到祖国怀抱时，在场教职工纷纷潸然泪下，深刻认识到祖国的强大，发自内心地感到骄傲与自豪。 "
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xinwen1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwenyemian2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中共一大至二十大精神VR作品 亮相2022世界VR产业暨元宇宙博览会"
+        android:textSize="37dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="（文、图/皮春花 审核/黄学雨）12日至13日，2022世界VR产业大会在江西南昌举行，本届大会以“VR让世界更精彩 VR点亮元宇宙”为主题。江西理工大学自2019年以来，连续四届在南昌国际博览中心设置专门展台。
+
+VR+中共一大至二十大精神VR作品聚焦一大到二十大的经典故事，打造思想政治理论虚拟教学仿真系统，形成线上线下、课内课外、校内校外的红色文化育人新格局。
+
+在本次展览中，“中共一大·中国共产党成立”VR交互作品率先亮相2022世界VR产业暨元宇宙博览会，获得同行的广泛关注和认可，认为该项目运用虚拟现实技术开展红色文化教育，是红色文化教育在传播形式上的拓展和创新，提升了红色文化育人实效。"
+        android:textSize="16dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xinwen2"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

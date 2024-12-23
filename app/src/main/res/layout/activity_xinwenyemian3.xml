@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwenyemian3"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="软件工程学院举办少数民族交流大会"
+        android:textSize="42dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本网讯（文/王寅刚）五十六个民族，五十六种风俗，每种风俗都有自己别样的风采。为进一步加强少数民族同学之间的沟通与交流，促进各族同学友好相处。12月3日晚，软件工程学院团委学生会在1601会议室组织开展少数民族交流大会，部分少数民族同学到场参加本次活动。
+
+活动开始，每位少数民族同学依次自我介绍，并讲述了自己的民族背景以及家乡文化。同学们对于自己民族的独特风俗文化侃侃而谈，让在场的其他人都能深刻体会到不同民族文化之间的差异、神圣与美丽。紧接着，主持人带领着同学们玩起了“解手链”、“五毛和一块”等风趣的小游戏。活动现场其乐融融，每位同学都沉浸在轻松愉悦的氛围中，欢笑声连绵不断。
+
+活动结束后，同学们都对此次活动好评如潮，纷纷表示不虚此行，非常享受活动的时光。
+
+此次交流大会的成功举办，为少数民族同学搭建了一个文化交流的平台。不仅加强了少数民族同学之间相互的了解，也让少数民族的同学更好的适应大学生活，同时也为创建和谐的校园环境做出了贡献。"
+        android:textSize="16dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xinwen3"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
